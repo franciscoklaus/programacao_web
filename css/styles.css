@@ -1,21 +1,31 @@
-body,html{
-    font-family: 'Courier New', Courier, monospace;
+body {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    color: #3D3D3D;
 }
 
 h1 {
-    color: #3D3D3D;
-    background-color:#E1EDF2;
+    padding: 10px;
+    background-color: #E1EDF2;
 }
 
 h2 {
-    border-bottom: 1px solid;
+    border-bottom: 2px solid black;
 }
 
 figure {
+    margin: 30px;
+    padding: 15px;
+
     text-align: center;
+
     background-color: whitesmoke;
+    border: 1px solid lightgrey;
 }
 
 figcaption {
-    color: lightgrey;
-} 
+    margin-top: 10px;
+}
